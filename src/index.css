@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.name-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  margin-bottom: 1px;
+}
+
+.title {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: blue;
+}
+
+.card {
+  background-color: orange;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  color: red;
+  font-style: oblique;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.about p {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif; /* Custom font */
+  letter-spacing: 1px; /* Space between letters */
+  color: #222; /* Text color */
+}
+
+.interests {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.interests h4{
+  color: red;
+  font-style: oblique;
+}
+
+.social-icon {
+    width: 24px; 
+    height: 24px;
+}
+
+.photo-container {
+  text-align: center;
+}
+
+.photo {
+  height: 250px; 
+  width: 300px;  
+  margin: 0 auto;
+}
+
+
+.interest-data-science {
+  color: green; /* Blue */
+}
+
+.interest-programming {
+  color: darkblue; /* Red */
+}
+
+.interest-chess {
+  color: purple; /* Green */
+}
+
+.interest-traveling {
+  color: darkcyan; /* Orange */
+}
